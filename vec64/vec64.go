@@ -11,7 +11,7 @@ type Vector [4]float64
 
 // Vec3 returns a copy of the vector with the 4th component set to zero.
 func (v Vector) Vec3() Vector {
-	return Vector{v[0], v[1], v[2], v[3]}
+	return Vector{v[0], v[1], v[2]}
 }
 
 // Normalize creates a new vector that is of unit length in the same direction as the vector.
